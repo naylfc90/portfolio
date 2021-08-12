@@ -3,7 +3,37 @@
     <head>
         <title>Contact</title>
     </head>
-    <main>
-        <h1>Contact</h1>
-    </main>
+    <body>
+        <main>
+            <h1>Contact</h1>
+
+            <fieldset>
+                <legend>Want to get in touch? Complete the form below:</legend>
+                <label>
+                    <input type="text" name="name" placeholder="Name"/>
+                </label>
+                <br/><br/>
+
+                <label>
+                    <input type="email" name="email" placeholder="Email"/>
+                </label>
+                <br/><br/>
+
+                <label for="reason">Reason for getting in touch:</label>
+                    <select name="reason">
+                        <option value="b" selected>Reason A</option>
+                        <option value="b">Reason B</option>
+                        <option value="c">Reason C</option>
+                        <option value="other">Other</option>
+                    </select>
+                <br/><br/>
+                
+                <label for="comments">Comments:</label>
+                <textarea id="comments"></textarea>
+                <br/><br/>  
+                
+                <input type="submit" value="Submit">
+            </fieldset>
+        </main>
+    </body>
 </html>
