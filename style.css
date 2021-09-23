@@ -30,14 +30,24 @@ h2 {
 
 h3 {
     text-transform: uppercase;
+    text-align: center;
 }
 
 img {
     border-radius: 50%;
 }
 
-.hobbies {
-    margin-left: 75px;
+.aboutme{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.about{
+    border: solid 1px;
+    border-radius: 15px;
+    background: #A5C882;
+    padding: 30px;
 }
 
 .hobbiesgrid {
@@ -45,6 +55,10 @@ img {
     grid-template-rows: 2;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px 10px;
+}
+
+.hobby{
+    text-align: center;
 }
 
 .title {
