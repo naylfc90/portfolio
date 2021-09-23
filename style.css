@@ -28,12 +28,34 @@ h2 {
     margin-bottom: 10px;
 }
 
+h3 {
+    text-transform: uppercase;
+}
+
 img {
     border-radius: 50%;
 }
 
-#hobby {
+.hobbies {
     margin-left: 75px;
+}
+
+.hobbiesgrid {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 10px;
+}
+
+.title {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    text-align: center;
+}
+
+figcaption{
+    margin-top: 10px;
+    text-align: center;
 }
 
 nav{
@@ -59,7 +81,7 @@ body {
     padding: 0px;
 }
 
-body h3, p, ul, ol, figcaption, table {
+body h3, p, ul, ol, table {
     margin-left: 75px;
     margin-right: 75px;
 }
