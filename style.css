@@ -1,13 +1,16 @@
 header {
     background-color: #477161;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', sans-serif;
     padding-top: 0;
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #selfie {
     float: right;
     margin: 5px;
-    margin-right: 50px;
+    margin-right: 100px;
     margin-top: 25px;
 }
 
@@ -15,15 +18,14 @@ h1 {
     color: #143642;
     font-size: 80px;
     margin: 0px;
-    margin-left: 50px;
     padding-top: 10px;
 }
 
 h2 {
     color: #CE8012;
     font-size: 60px;
-    margin: 10px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 img {
@@ -31,13 +33,11 @@ img {
 }
 
 #hobby {
-    margin-left: 50px;
+    margin-left: 75px;
 }
 
 nav{
     font-size: 40px;
-    margin: 10px;
-    margin-left: 50px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -48,6 +48,10 @@ nav a{
     color: #DAD3D2;
 }
 
+nav a:hover{
+    color: #E97A0C;
+}
+
 body {
     background-color: #DAD3D2;
     font-family: 'Open Sans', sans-serif;
@@ -55,8 +59,28 @@ body {
     padding: 0px;
 }
 
-body h3, p, ul, ol, figcaption {
+body h3, p, ul, ol, figcaption, table {
     margin-left: 75px;
+    margin-right: 75px;
+}
+
+#contactintro {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contactform {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+table {
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 hr {
