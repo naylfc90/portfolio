@@ -1,0 +1,74 @@
+header {
+    background-color: #477161;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 0;
+}
+
+#selfie {
+    float: right;
+    margin: 5px;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+h1 {
+    color: #143642;
+    font-size: 80px;
+    margin: 0px;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+h2 {
+    color: #CE8012;
+    font-size: 60px;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#hobby {
+    margin-left: 50px;
+}
+
+nav{
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+nav a{
+    padding-right: 15px;
+    padding-top: 15px;
+    color: #DAD3D2;
+}
+
+body {
+    background-color: #DAD3D2;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body h3, p, ul, ol, figcaption {
+    margin-left: 75px;
+}
+
+hr {
+    width: 60%;
+    border-color: #477161;
+}
+
+footer {
+    background-color: #BD632F;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 10px;
+    padding-top: 20px;
+}
