@@ -134,6 +134,14 @@ table {
         align-items: baseline;
     }
 
+    .aboutme .about {
+        transition: transform 300ms;
+    }
+
+    .aboutme .about:hover{
+        transform: translateY(-10px);
+    }
+
     .hobbiesgrid {
         display: grid;
         grid-template-rows: 2;
@@ -143,7 +151,14 @@ table {
     
     .hobby {
         text-align: center;
-        
+    }
+
+    .hobby img {
+        transition: transform 300ms;
+    }
+
+    .hobby img:hover{
+        transform: translateY(-10px);
     }
     
     .title {
@@ -159,5 +174,7 @@ table {
 
     #selfie {
         float: right;
+        margin-right: 50px;
+        margin-top: 15px;
     }
 }
