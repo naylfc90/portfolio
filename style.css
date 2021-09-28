@@ -7,47 +7,50 @@ header {
     padding-right: 50px;
 }
 
-#selfie {
-    float: right;
-    margin: 5px;
-    margin-right: 100px;
-    margin-top: 25px;
-}
-
-h1 {
+.pageheader h1 {
     color: #143642;
     font-size: 80px;
     margin: 0px;
     padding-top: 10px;
 }
 
-h2 {
+.pageheader h2 {
     color: #CE8012;
     font-size: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+#selfie {
+    float: right;
+    margin: 5px;
+    margin-top: 25px;
+}
+
 h3 {
     text-transform: uppercase;
     text-align: center;
+    font-size: 20px;
 }
 
 img {
     border-radius: 50%;
 }
 
-.aboutme{
+.aboutme {
     display: flex;
-    justify-content: center;
     text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
-.about{
+.about {
     border: solid 1px;
     border-radius: 15px;
     background: #A5C882;
-    padding: 25px;
+    padding: 20px;
+    margin: 0 10px;
 }
 
 .hobbiesgrid {
@@ -57,7 +60,7 @@ img {
     grid-gap: 10px 10px;
 }
 
-.hobby{
+.hobby {
     text-align: center;
 }
 
@@ -67,37 +70,25 @@ img {
     text-align: center;
 }
 
-figcaption{
+figcaption {
     margin-top: 10px;
     text-align: center;
 }
 
-nav{
+nav {
     font-size: 40px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
 
-nav a{
+nav a {
     padding-right: 15px;
     padding-top: 15px;
     color: #DAD3D2;
 }
 
-nav a:hover{
+nav a:hover {
     color: #E97A0C;
-}
-
-body {
-    background-color: #DAD3D2;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0px;
-    padding: 0px;
-}
-
-body h3, p, ul, ol, table {
-    margin-left: 75px;
-    margin-right: 75px;
 }
 
 #contactintro {
@@ -106,17 +97,11 @@ body h3, p, ul, ol, table {
 }
 
 .contactform {
-    display: block;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
+    
+    margin-left: 5px;
+    margin-right: 5px;
     text-align: center;
-}
-
-table {
-    padding: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 15px;
 }
 
 hr {
@@ -124,11 +109,40 @@ hr {
     border-color: #477161;
 }
 
-footer {
-    background-color: #BD632F;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-    padding: 10px;
-    padding-top: 20px;
+@media screen and (min-width: 768px){
+    h3, p, ul, ol, table {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    body {
+        background-color: #DAD3D2;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    table {
+        padding: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    footer {
+        background-color: #BD632F;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 25px;
+        padding: 10px;
+        padding-top: 20px;
+    }
+
+    .contactform {
+        display: block;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 50px;
+        text-align: center;
+        border-radius: 15px;
+    }
 }
