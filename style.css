@@ -1,5 +1,5 @@
 *, html {
-    margin: 0;  
+    margin: 0;
 }
 
 header {
@@ -95,8 +95,16 @@ figcaption {
     margin-bottom: 25px;
 }
 
+#contactintro, #projectintro {
+    text-align: center;
+}
+
 .contactform {
     border-radius: 15px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table {
@@ -116,10 +124,16 @@ table {
     header {
         padding-left: 50px;
         padding-right: 50px;
+        width: 100%;
     }
 
     body, ol, li {
         text-align: left;
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
     }
 
     h3 {
@@ -135,7 +149,7 @@ table {
     }
 
     .aboutme .about {
-        transition: transform 300ms;
+        transition: transform 250ms;
     }
 
     .aboutme .about:hover{
@@ -154,10 +168,18 @@ table {
     }
 
     .hobby img {
-        transition: transform 300ms;
+        transition: transform 250ms;
     }
 
-    .hobby img:hover{
+    .hobby img:hover {
+        transform: translateY(-10px);
+    }
+
+    #linkedin {
+        transition: transform 250ms;
+    }
+
+    #linkedin:hover{
         transform: translateY(-10px);
     }
     
@@ -174,7 +196,7 @@ table {
 
     #selfie {
         float: right;
-        margin-right: 50px;
+        margin-right: 10%;
         margin-top: 15px;
     }
 }
