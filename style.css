@@ -63,6 +63,16 @@ footer {
     font-size: 25px;
 }
 
+#linkedin {
+    border: 0;
+    border-radius: 0;
+}
+
+#github {
+    border: 0;
+    border-radius: 0;
+}
+
 hr {
     width: 60%;
     border-color: #477161;
